@@ -1,0 +1,179 @@
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f9;
+    color: #66545d;
+}
+
+/* CABEÇALHO */
+header {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #ffe4ee;
+}
+
+header h1 {
+    color: #d77b9f;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #967481;
+    font-size: 15px;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    background-color: #fffafd;
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px solid #f5d6e3;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c46f92;
+    margin: 0 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e9a0ba;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    padding: 45px 20px;
+}
+
+.inicio {
+    background-color: white;
+    max-width: 650px;
+    margin: auto;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 18px #edcbd8;
+}
+
+.inicio h2 {
+    color: #d77b9f;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.inicio p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* CARTÃO DO ELEMENTO */
+.elemento {
+    background-color: #fff0f5;
+    border: 2px solid #f2c5d6;
+    border-radius: 15px;
+    width: 150px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.elemento span {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+}
+
+.elemento h2 {
+    font-size: 55px;
+    margin: 5px 0;
+}
+
+.elemento p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.elemento small {
+    display: block;
+    margin-top: 8px;
+}
+
+/* BOTÃO */
+.botao {
+    display: inline-block;
+    background-color: #e9a0ba;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #d77b9f;
+    transform: scale(1.05);
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #b17b91;
+    font-size: 13px;
+}
+.imagem-com-seta img {
+    width: 150px;
+    height: auto;
+} .imagem-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    max-width: 650px;
+}
+
+.imagem-texto img {
+    width: 180px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.texto-imagem {
+    max-width: 200px;
+    text-align: left;
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.texto-imagem h3 {
+    color: #d8799e;
+}
+
+.texto-imagem p {
+    font-size: 15px;
+    line-height: 1.6;
+} .imagem-container {
+    position: relative;
+}
+
+.seta-curva {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(50%);
+    font-size: 42px;
+    color: #e58aaa;
+}

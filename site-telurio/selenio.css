@@ -1,0 +1,131 @@
+
+/* ESTILO GERAL */
+body {
+    background-color: #fff5f9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #ffe4ee;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #d8799e;
+    font-family: Georgia, serif;
+}
+
+header p {
+    color: #8e6475;
+}
+
+/* MENU */
+nav {
+    background-color: #fff0f5;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #c76f93;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e69ab5;
+}
+
+/* CONTEÚDO */
+main {
+    padding: 30px 15px;
+}
+
+.inicio {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px #f2dce5;
+}
+
+.inicio h2 {
+    color: #d8799e;
+}
+
+.inicio p {
+    line-height: 1.7;
+    color: #555;
+}
+
+/* QUADRINHO DO ELEMENTO */
+.elemento {
+    background-color: #fff0c9;
+    border: 2px solid #f0d98c;
+    width: 130px;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.elemento span {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+}
+
+.elemento h2 {
+    color: #b58a20;
+    font-size: 42px;
+    margin: 5px;
+}
+
+.elemento p {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.elemento small {
+    color: #8d752e;
+}
+
+/* BOTÕES */
+.botao {
+    display: inline-block;
+    background-color: #f5c6d8;
+    color: #8f4e69;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #edacc5;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #ffe4ee;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    color: #9b6680;
+}
+.imagem-selenio img {
+    width: 80%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #f2dce5;
+}
